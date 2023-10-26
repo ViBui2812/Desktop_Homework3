@@ -18,7 +18,8 @@ namespace Desktop_Homework3
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form_USCLN());
             //Application.Run(new FormDoiKieuChu());
-            Application.Run(new FormXulyChuoi());
+            //Application.Run(new FormXulyChuoi());
+            Application.Run(new FormObject());
         }
 
     }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTieuDe = new System.Windows.Forms.Label();
             this.txtS1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,32 +45,35 @@
             this.btnstop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblTieuDe
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightSalmon;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(189, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(356, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CHƯƠNG TRÌNH XỬ LÝ CHUỖI";
+            this.lblTieuDe.AutoSize = true;
+            this.lblTieuDe.BackColor = System.Drawing.Color.LightSalmon;
+            this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(252, 42);
+            this.lblTieuDe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(443, 36);
+            this.lblTieuDe.TabIndex = 0;
+            this.lblTieuDe.Text = "CHƯƠNG TRÌNH XỬ LÝ CHUỖI";
             // 
             // txtS1
             // 
-            this.txtS1.Location = new System.Drawing.Point(194, 113);
+            this.txtS1.Location = new System.Drawing.Point(259, 139);
+            this.txtS1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtS1.Multiline = true;
             this.txtS1.Name = "txtS1";
-            this.txtS1.Size = new System.Drawing.Size(394, 23);
+            this.txtS1.Size = new System.Drawing.Size(524, 27);
             this.txtS1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(155, 94);
+            this.label2.Location = new System.Drawing.Point(207, 116);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(152, 16);
+            this.label2.Size = new System.Drawing.Size(194, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nhập vào chuỗi thứ nhất:";
             // 
@@ -78,27 +81,30 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(155, 139);
+            this.label3.Location = new System.Drawing.Point(207, 171);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 16);
+            this.label3.Size = new System.Drawing.Size(184, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "Nhập vào chuỗi thứ hai:";
             // 
             // txtS2
             // 
-            this.txtS2.Location = new System.Drawing.Point(194, 158);
+            this.txtS2.Location = new System.Drawing.Point(259, 194);
+            this.txtS2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtS2.Multiline = true;
             this.txtS2.Name = "txtS2";
-            this.txtS2.Size = new System.Drawing.Size(394, 23);
+            this.txtS2.Size = new System.Drawing.Size(524, 27);
             this.txtS2.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(155, 192);
+            this.label4.Location = new System.Drawing.Point(207, 236);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 16);
+            this.label4.Size = new System.Drawing.Size(71, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Kết quả:";
             // 
@@ -106,16 +112,19 @@
             // 
             this.listBox1.BackColor = System.Drawing.SystemColors.Info;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(158, 211);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(211, 260);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(430, 108);
+            this.listBox1.Size = new System.Drawing.Size(572, 132);
             this.listBox1.TabIndex = 6;
             // 
             // btnCompare
             // 
-            this.btnCompare.Location = new System.Drawing.Point(158, 326);
+            this.btnCompare.Location = new System.Drawing.Point(211, 401);
+            this.btnCompare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCompare.Name = "btnCompare";
-            this.btnCompare.Size = new System.Drawing.Size(103, 23);
+            this.btnCompare.Size = new System.Drawing.Size(137, 28);
             this.btnCompare.TabIndex = 7;
             this.btnCompare.Text = "Compare";
             this.btnCompare.UseVisualStyleBackColor = true;
@@ -123,9 +132,10 @@
             // 
             // btnConcat
             // 
-            this.btnConcat.Location = new System.Drawing.Point(267, 326);
+            this.btnConcat.Location = new System.Drawing.Point(356, 401);
+            this.btnConcat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConcat.Name = "btnConcat";
-            this.btnConcat.Size = new System.Drawing.Size(103, 23);
+            this.btnConcat.Size = new System.Drawing.Size(137, 28);
             this.btnConcat.TabIndex = 9;
             this.btnConcat.Text = "Concat";
             this.btnConcat.UseVisualStyleBackColor = true;
@@ -133,27 +143,32 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(376, 326);
+            this.btnInsert.Location = new System.Drawing.Point(501, 401);
+            this.btnInsert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(103, 23);
+            this.btnInsert.Size = new System.Drawing.Size(137, 28);
             this.btnInsert.TabIndex = 10;
             this.btnInsert.Text = "Insert";
             this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(485, 326);
+            this.btndelete.Location = new System.Drawing.Point(647, 401);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(103, 23);
+            this.btndelete.Size = new System.Drawing.Size(137, 28);
             this.btndelete.TabIndex = 11;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // btnCOMPARE2
             // 
-            this.btnCOMPARE2.Location = new System.Drawing.Point(158, 355);
+            this.btnCOMPARE2.Location = new System.Drawing.Point(211, 437);
+            this.btnCOMPARE2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCOMPARE2.Name = "btnCOMPARE2";
-            this.btnCOMPARE2.Size = new System.Drawing.Size(103, 23);
+            this.btnCOMPARE2.Size = new System.Drawing.Size(137, 28);
             this.btnCOMPARE2.TabIndex = 12;
             this.btnCOMPARE2.Text = "COMPARE";
             this.btnCOMPARE2.UseVisualStyleBackColor = true;
@@ -161,9 +176,10 @@
             // 
             // btnIndexof
             // 
-            this.btnIndexof.Location = new System.Drawing.Point(267, 355);
+            this.btnIndexof.Location = new System.Drawing.Point(356, 437);
+            this.btnIndexof.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIndexof.Name = "btnIndexof";
-            this.btnIndexof.Size = new System.Drawing.Size(103, 23);
+            this.btnIndexof.Size = new System.Drawing.Size(137, 28);
             this.btnIndexof.TabIndex = 13;
             this.btnIndexof.Text = "IndexOf";
             this.btnIndexof.UseVisualStyleBackColor = true;
@@ -171,27 +187,31 @@
             // 
             // btnsubstring
             // 
-            this.btnsubstring.Location = new System.Drawing.Point(376, 355);
+            this.btnsubstring.Location = new System.Drawing.Point(501, 437);
+            this.btnsubstring.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsubstring.Name = "btnsubstring";
-            this.btnsubstring.Size = new System.Drawing.Size(103, 23);
+            this.btnsubstring.Size = new System.Drawing.Size(137, 28);
             this.btnsubstring.TabIndex = 14;
             this.btnsubstring.Text = "Substring";
             this.btnsubstring.UseVisualStyleBackColor = true;
+            this.btnsubstring.Click += new System.EventHandler(this.btnsubstring_Click);
             // 
             // btnstop
             // 
-            this.btnstop.Location = new System.Drawing.Point(485, 355);
+            this.btnstop.Location = new System.Drawing.Point(647, 437);
+            this.btnstop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnstop.Name = "btnstop";
-            this.btnstop.Size = new System.Drawing.Size(103, 23);
+            this.btnstop.Size = new System.Drawing.Size(137, 28);
             this.btnstop.TabIndex = 15;
             this.btnstop.Text = "Stop";
             this.btnstop.UseVisualStyleBackColor = true;
+            this.btnstop.Click += new System.EventHandler(this.btnstop_Click);
             // 
             // FormXulyChuoi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnstop);
             this.Controls.Add(this.btnsubstring);
             this.Controls.Add(this.btnIndexof);
@@ -206,7 +226,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtS1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTieuDe);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormXulyChuoi";
             this.Text = "FormXulyChuoi";
             this.Load += new System.EventHandler(this.FormXulyChuoi_Load);
@@ -217,7 +238,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTieuDe;
         private System.Windows.Forms.TextBox txtS1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
