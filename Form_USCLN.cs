@@ -17,8 +17,7 @@ namespace Desktop_Homework3
             InitializeComponent();
         }
         string option;
-        double result;
-        int x, y, uscln, temp, max,usc;
+        
         
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,9 +34,10 @@ namespace Desktop_Homework3
         {
             option = "USC";
         }
-
+        int x, y, uscln, max, usc;
         private void btnKQ_Click(object sender, EventArgs e)
         {
+            
             x = int.Parse(txtSothu1.Text);
             y = int.Parse(txtSothu2.Text);
 
@@ -45,12 +45,6 @@ namespace Desktop_Homework3
             {
                 case ("USCLN"):
                     {
-                        if (x > y)
-                        {
-                            temp = x;
-                            x = y;
-                            y = temp;
-                        }
                         for (int i = 1; i < (x + 1); i++)
                         {
                             if (x % i == 0 && y % i == 0)

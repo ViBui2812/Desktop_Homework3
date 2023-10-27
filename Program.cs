@@ -16,10 +16,10 @@ namespace Desktop_Homework3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form_USCLN());
+            Application.Run(new Form_USCLN());
             //Application.Run(new FormDoiKieuChu());
             //Application.Run(new FormXulyChuoi());
-            Application.Run(new FormObject());
+            //Application.Run(new FormObject());
         }
 
     }
