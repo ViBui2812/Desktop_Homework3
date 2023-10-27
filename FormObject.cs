@@ -61,8 +61,8 @@ namespace Desktop_Homework3
         {
             string[] h_t = hovaten.Split(' ');
             A.Ho = h_t[0];
-            A.Holot = h_t;
-            A.Ten = h_t[-1];
+            A.Holot = hovaten.Substring(h_t[0].Length, hovaten.Length - h_t[0].Length - h_t[h_t.Length - 1].Length).Replace(" ", "");
+            A.Ten = h_t[h_t.Length - 1];
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -82,7 +82,49 @@ namespace Desktop_Homework3
 
         private void btnIn_Click(object sender, EventArgs e)
         {
-            Gan(txtHovaten.Text)
+            Gan(txtHovaten.Text);
+            listBox1.Items.Clear();
+            listBox1.Items.Add("Chào mừng đến với chương trình xử lý họ tên của "+A.Ho+" " + A.Holot+ " " + A.Ten);
+        }
+
+        private void btnHolot_Click(object sender, EventArgs e)
+        {
+            Gan(txtHovaten.Text);
+            listBox1.Items.Clear();
+            listBox1.Items.Add("Họ lót là: " +A.Holot);
+        }
+
+        private void btnTen_Click(object sender, EventArgs e)
+        {
+            Gan(txtHovaten.Text);
+            listBox1.Items.Clear();
+            listBox1.Items.Add("Tên là: " + A.Ten);
+        }
+
+        private void btnDem_Click(object sender, EventArgs e)
+        {
+            Gan(txtHovaten.Text);
+            listBox1.Items.Clear();
+            listBox1.Items.Add("Số từ là: " + (A.Ho.Count() + A.Holot.Count() + A.Ten.Count()));
+        }
+
+        private void btnHoadautu_Click(object sender, EventArgs e)
+        {
+            Gan(txtHovaten.Text);
+            
+            string kqtu;
+            kqtu = A.Ho.ToString().ToUpper().Substring(0, 1) + A.Ho.Substring(1) + " " +
+                   A.Holot.ToString().ToUpper().Substring(0, 1) + A.Holot.Substring(1) + " "+
+                   A.Ten.ToString().ToUpper().Substring(0, 1) + A.Ten.Substring(1);
+            listBox1.Items.Clear();
+            listBox1.Items.Add(kqtu);
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            txtHovaten.Text = " ";
+            listBox1.Items.Clear();
+            txtHovaten.Focus();
         }
     }
 }

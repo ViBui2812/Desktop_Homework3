@@ -68,7 +68,7 @@
             // 
             this.txtHovaten.Location = new System.Drawing.Point(146, 127);
             this.txtHovaten.Name = "txtHovaten";
-            this.txtHovaten.Size = new System.Drawing.Size(358, 22);
+            this.txtHovaten.Size = new System.Drawing.Size(473, 22);
             this.txtHovaten.TabIndex = 2;
             this.txtHovaten.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -78,12 +78,12 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(146, 187);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(358, 36);
+            this.listBox1.Size = new System.Drawing.Size(473, 36);
             this.listBox1.TabIndex = 3;
             // 
             // btnIn
             // 
-            this.btnIn.Location = new System.Drawing.Point(146, 240);
+            this.btnIn.Location = new System.Drawing.Point(208, 229);
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(75, 92);
             this.btnIn.TabIndex = 4;
@@ -93,52 +93,57 @@
             // 
             // btnHolot
             // 
-            this.btnHolot.Location = new System.Drawing.Point(227, 240);
+            this.btnHolot.Location = new System.Drawing.Point(289, 229);
             this.btnHolot.Name = "btnHolot";
             this.btnHolot.Size = new System.Drawing.Size(75, 43);
             this.btnHolot.TabIndex = 5;
             this.btnHolot.Text = "Họ Lót";
             this.btnHolot.UseVisualStyleBackColor = true;
+            this.btnHolot.Click += new System.EventHandler(this.btnHolot_Click);
             // 
             // btnTen
             // 
-            this.btnTen.Location = new System.Drawing.Point(227, 289);
+            this.btnTen.Location = new System.Drawing.Point(289, 278);
             this.btnTen.Name = "btnTen";
             this.btnTen.Size = new System.Drawing.Size(75, 43);
             this.btnTen.TabIndex = 6;
             this.btnTen.Text = "Tên";
             this.btnTen.UseVisualStyleBackColor = true;
+            this.btnTen.Click += new System.EventHandler(this.btnTen_Click);
             // 
             // btnDem
             // 
-            this.btnDem.Location = new System.Drawing.Point(308, 240);
+            this.btnDem.Location = new System.Drawing.Point(370, 229);
             this.btnDem.Name = "btnDem";
             this.btnDem.Size = new System.Drawing.Size(124, 43);
             this.btnDem.TabIndex = 7;
             this.btnDem.Text = "Đếm Từ";
             this.btnDem.UseVisualStyleBackColor = true;
+            this.btnDem.Click += new System.EventHandler(this.btnDem_Click);
             // 
             // btnHoadautu
             // 
-            this.btnHoadautu.Location = new System.Drawing.Point(308, 289);
+            this.btnHoadautu.Location = new System.Drawing.Point(370, 278);
             this.btnHoadautu.Name = "btnHoadautu";
             this.btnHoadautu.Size = new System.Drawing.Size(124, 43);
             this.btnHoadautu.TabIndex = 8;
             this.btnHoadautu.Text = "Hoa Đầu Từ";
             this.btnHoadautu.UseVisualStyleBackColor = true;
+            this.btnHoadautu.Click += new System.EventHandler(this.btnHoadautu_Click);
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(438, 240);
+            this.btnXoa.Location = new System.Drawing.Point(500, 229);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(66, 43);
             this.btnXoa.TabIndex = 9;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnDung
             // 
-            this.btnDung.Location = new System.Drawing.Point(438, 289);
+            this.btnDung.Location = new System.Drawing.Point(500, 278);
             this.btnDung.Name = "btnDung";
             this.btnDung.Size = new System.Drawing.Size(66, 43);
             this.btnDung.TabIndex = 10;
